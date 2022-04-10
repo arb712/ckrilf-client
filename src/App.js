@@ -1,18 +1,18 @@
 // Module
 import React from "react";
-import { Container } from "@mui/material";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { Container } from "@material-ui/core";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Components
-import Home from "./components/Home/";
+import Home from "./components/Home";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Container maxWidth="xl">
-        <Switch>
-          <Route path="/" component={Home}></Route>
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
       </Container>
     </BrowserRouter>
   );
