@@ -1,20 +1,17 @@
 // Import Module
 import React from "react";
 import ReactDOM from "react-dom";
-import { Provider } from "react-redux";
-import { createStore, applyMiddleware, compose } from "redux";
-import thunk from "redux-thunk";
+
+import reportWebVitals from "./reportWebVitals";
 
 import App from "./App";
-
-// Redux reducers
-import reducers from "./reducers";
-// Define redux store
-const store = createStore(reducers, compose(applyMiddleware(thunk)));
+import "./index.css";
 
 ReactDOM.render(
-  <Provider store={store}>
+  <React.StrictMode>
     <App />
-  </Provider>,
+  </React.StrictMode>,
   document.getElementById("root")
 );
+
+reportWebVitals();
