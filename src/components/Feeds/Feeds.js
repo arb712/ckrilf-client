@@ -1,11 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {
-  Card,
-  CardContent,
-  CardMedia,
-  Typography,
-  Grid,
-} from "@material-ui/core";
+import { Card, CardMedia, Typography, Grid } from "@material-ui/core";
 
 import useStyles from "./styles";
 import axios from "axios";
