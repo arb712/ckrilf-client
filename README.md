@@ -8,4 +8,4 @@ I have deploy my FE to [netlify](https://ckrilf.netlify.app/)
 
 ## Backend
 
-You can check my BE results in [Backend](https://github.com/arb712/ckrilf-server)
+You can check my BE results here [Backend](https://github.com/arb712/ckrilf-server)
