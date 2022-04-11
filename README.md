@@ -1,6 +1,6 @@
 # AIA Fullstack Internship Assessment
 
-This is my assessment project for AIA Fullstack Internship made using `React, axios, React router dom, Material-Ui`
+This is my assessment test for AIA Fullstack Internship made using `React, axios, React router dom, Material-Ui`
 
 ## Deployment
 
