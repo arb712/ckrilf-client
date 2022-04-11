@@ -1,7 +1,11 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles({
-  container: { display: "flex", alignItems: "center" },
+  container: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
   media: {
     height: 0,
     paddingTop: "56.25%",
